@@ -7,7 +7,7 @@ const About = () => {
     AWS.config.update({region:'us-east-1'})
     var ddb = new AWS.DynamoDB();
     //URL will be updated when we have a working database
-    const url = "https://dynamodb.us-east-1.amazonaws.com";
+    const url = "";
     const [data, setData] = useState([]);
 
     const fetchInfo = () =>{
